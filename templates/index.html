@@ -1,7 +1,14 @@
 <home>
-   <body>
+   <head>
       <title>Similarity Checker</title>
+      <style>
+         body {background-color: powderblue;}
+         span {font-weight: bold}
+      </style>
+   </head>
+   <body>
       <form action="http://localhost:5000" method="POST">
+         <span>EXAMINATION QUESTION PAPER</span>
          <p>What is Computer Science?</p>
          <p><textarea name="question1" rows="5" cols="70" autofocus>{{question1}}</textarea></p>
          <br>
