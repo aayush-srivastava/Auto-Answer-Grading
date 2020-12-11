@@ -2,12 +2,23 @@
    <body>
       <title>Similarity Checker</title>
       <form action="http://localhost:5000" method="POST">
-         <p>Input Text : </p>
-         <p><textarea name="query" rows="8" cols="50" autofocus>{{query}}</textarea></p>
+         <p>What is Computer Science?</p>
+         <p><textarea name="question1" rows="5" cols="70" autofocus>{{question1}}</textarea></p>
          <br>
-         <p><input type="submit" name="submit" value="CHECK SIMILARITY"></p>
+         <p>What is a Data Structure?</p>
+         <p><textarea name="question2" rows="5" cols="70" autofocus>{{question2}}</textarea></p>
+         <br>
+         <p>What is Object Oriented Programming?</p>
+         <p><textarea name="question3" rows="5" cols="70" autofocus>{{question3}}</textarea></p>
+         <br>
+         <p>What is Software Engineering?</p>
+         <p><textarea name="question4" rows="5" cols="70" autofocus>{{question4}}</textarea></p>
+         <br>
+         <p><input type="submit" name="submit" value="Grade Answers"></p>
          <br>
          <p><h3>{{output}}</h3></p>
       </form>
    </body>
 </home>
+
+
